@@ -1,0 +1,35 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="testproject:war exploded">
+    <output-path>$PROJECT_DIR$/target/mytest-1.0.0-SNAPSHOT</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="testproject/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="testproject" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="Maven: org.mongodb:mongo-java-driver:2.13.0-rc0" />
+          <element id="library" level="project" name="Maven: org.springframework.data:spring-data-mongodb:1.7.1.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-tx:4.0.9.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-beans:4.0.9.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-core:4.0.9.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-context:4.0.9.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-aop:4.0.9.RELEASE" />
+          <element id="library" level="project" name="Maven: aopalliance:aopalliance:1.0" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-expression:4.0.9.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework.data:spring-data-commons:1.10.1.RELEASE" />
+          <element id="library" level="project" name="Maven: org.slf4j:slf4j-api:1.7.10" />
+          <element id="library" level="project" name="Maven: org.slf4j:jcl-over-slf4j:1.7.10" />
+          <element id="library" level="project" name="Maven: org.springframework.data:spring-data-mongodb-cross-store:1.7.1.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-aspects:4.0.9.RELEASE" />
+          <element id="library" level="project" name="Maven: org.aspectj:aspectjweaver:1.8.4" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-orm:4.0.9.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-jdbc:4.0.9.RELEASE" />
+          <element id="library" level="project" name="Maven: org.aspectj:aspectjrt:1.8.5" />
+          <element id="library" level="project" name="Maven: org.springframework.data:spring-data-mongodb-log4j:1.7.1.RELEASE" />
+          <element id="library" level="project" name="Maven: log4j:log4j:1.2.16" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>
